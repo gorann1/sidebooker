@@ -2,7 +2,13 @@
 export default defineNuxtConfig({
   modules: [
     '@sidebase/nuxt-auth',
-    '@huntersofbook/naive-ui-nuxt'
+    '@huntersofbook/naive-ui-nuxt',
+    '@vueuse/nuxt',
+    'unplugin-icons/nuxt',
+    '@intlify/nuxt3',
+    '@pinia/nuxt',
+    '@vueuse/nuxt',
+    'nuxt-windicss'
   ],
   build: {
     transpile: [
