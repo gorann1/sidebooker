@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     "@huntersofbook/naive-ui-nuxt",
     "@vueuse/nuxt",
     "unplugin-icons/nuxt",
+    "@nuxtjs/color-mode",
     "@intlify/nuxt3",
     "@pinia/nuxt",
     "@vueuse/nuxt",
