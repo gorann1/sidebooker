@@ -24,21 +24,16 @@ export default defineNuxtConfig({
     "@pinia/nuxt",
     "@vueuse/nuxt",
     "nuxt-windicss",
+    "@nuxthq/ui",
   ],
   build: {
     transpile: ["trpc-nuxt"],
   },
-  // windicss
-  windicss: {
-    analyze: {
-      analysis: {
-        interpretUtilities: false,
-      },
-      server: {
-        port: 4000,
-        open: false,
-      },
+
+  ui: {
+    prefix: "tw",
+    colors: {
+      primary: "blue",
     },
-    scan: true,
   },
 });

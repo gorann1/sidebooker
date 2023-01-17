@@ -1,9 +1,13 @@
 <script setup lang="ts">
-const { data: zones } = useFetch('/api/zones')
+const { data: zones } = useFetch("/api/zones");
 </script>
 
 <template>
   <div>
-    <p>Prisma ORM Data from the database, received {{ zones?.length || 0 }} records: <pre>{{ zones }}</pre></p>
+    <div>
+      <ul>
+        <li v-for="zone in zones" :key="zone.id">{{ zone.name }}</li>
+      </ul>
+    </div>
   </div>
 </template>

@@ -22,6 +22,8 @@
   "devDependencies": {
     "@huntersofbook/naive-ui-nuxt": "^0.5.1",
     "@intlify/nuxt3": "^0.2.4",
+    "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
+    "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@pinia/nuxt": "^0.4.6",
     "@sidebase/nuxt-auth": "^0.3.3",
