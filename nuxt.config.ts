@@ -10,11 +10,7 @@ export default defineNuxtConfig({
   },
 
   // css
-  css: [
-    "virtual:windi-base.css",
-    "virtual:windi-components.css",
-    "virtual:windi-utilities.css",
-  ],
+  css: [],
   modules: [
     "@sidebase/nuxt-auth",
     "@huntersofbook/naive-ui-nuxt",
@@ -23,17 +19,8 @@ export default defineNuxtConfig({
     "@intlify/nuxt3",
     "@pinia/nuxt",
     "@vueuse/nuxt",
-    "nuxt-windicss",
-    "@nuxthq/ui",
   ],
   build: {
     transpile: ["trpc-nuxt"],
-  },
-
-  ui: {
-    prefix: "tw",
-    colors: {
-      primary: "blue",
-    },
   },
 });
