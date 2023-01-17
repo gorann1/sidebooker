@@ -1,9 +1,18 @@
 node_modules
 *.log*
-.nuxt
 .nitro
 .cache
-.output
 .env
 dist
-*.sqlite
+*.postgresql
+
+# private config
+.env
+
+# build or generate
+.nuxt
+dist
+.output
+
+# IDE
+.idea

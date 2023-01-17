@@ -5,7 +5,9 @@
     "node": true
   },
   "extends": [
-    "@nuxtjs/eslint-config-typescript"
+    "@nuxtjs/eslint-config-typescript",
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended"
   ],
   "overrides": [
     {

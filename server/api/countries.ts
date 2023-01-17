@@ -11,5 +11,5 @@
  * ```
  */
 export default defineEventHandler((event) =>
-  event.context.prisma.zone.findMany()
+  event.context.prisma.country.findMany()
 );

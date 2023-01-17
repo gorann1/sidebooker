@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h1>
-      Welcome to your sidebase app!
-    </h1>
+    <h1>Welcome to your sidebase app!</h1>
     <p>
       Checkout the Prisma ORM demo page here:
       <nuxt-link to="/prisma" class="underline text-blue">
