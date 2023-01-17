@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   // css
   css: [],
   modules: [
+    "@nuxtjs/tailwindcss",
     "@sidebase/nuxt-auth",
     "@huntersofbook/naive-ui-nuxt",
     "@vueuse/nuxt",
