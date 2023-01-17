@@ -12,10 +12,12 @@ export default defineNuxtConfig({
   // css
   css: [],
   modules: [
+    "@nuxtjs/tailwindcss",
     "@sidebase/nuxt-auth",
     "@huntersofbook/naive-ui-nuxt",
     "@vueuse/nuxt",
     "unplugin-icons/nuxt",
+    "@nuxtjs/color-mode",
     "@intlify/nuxt3",
     "@pinia/nuxt",
     "@vueuse/nuxt",
